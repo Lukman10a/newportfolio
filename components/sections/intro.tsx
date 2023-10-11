@@ -90,6 +90,7 @@ export default function Intro() {
           href="https://github.com/Lukman10a"
           target="_blank"
           rel="noopener"
+          aria-label="Open Lukman's Github"
           className="p-4 bg-gray-800 hover:bg-gray-700 text-white flex items-center gap-2 rounded-full shadow-md transition-all duration-300"
         >
           <FaGithubSquare size={20} />
@@ -100,6 +101,7 @@ export default function Intro() {
           href="https://www.linkedin.com/in/abdulrauf-lukman-761095217/"
           target="_blank"
           rel="noopener"
+          aria-label="Open Lukman's Linkedin"
           className="p-4 bg-blue-500 hover:bg-blue-400 text-white flex items-center gap-2 rounded-full shadow-md transition-all duration-300"
         >
           <BsLinkedin size={20} />
