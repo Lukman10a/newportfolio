@@ -3,6 +3,7 @@ import { Providers } from "./providers";
 import Intro from "@/components/sections/intro";
 import SectionDivider from "@/components/SectionDivider";
 import Experience from "@/components/sections/Experience";
+import Projects from "@/components/sections/Projects";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <About />
         <SectionDivider />
         <Experience />
+        <Projects />
       </Providers>
     </main>
   );

@@ -49,7 +49,7 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectData = [
+export const projectsData = [
   {
     title: "At-Taasil",
     description: "Collaborated in building the online university",
