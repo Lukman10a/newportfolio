@@ -21,13 +21,11 @@ export default function About() {
       <p className="mb-3">
         <span className="font-bold">
           I am Lukman, a frontend developer with
-        </span>
-        {""}
-        <span className="font-bold">3 years of experience</span>
-        {""}
+        </span>{" "}
+        <span className="font-bold">3 years of experience</span>{" "}
         <span className="font-bold">
           {" "}
-          {""}I am capable of creating efficient, scalable
+          I am capable of creating efficient, scalable
         </span>
         <span className="font-bold">and visually appealing web apps</span>
       </p>
