@@ -14,6 +14,7 @@ export default function Home() {
         <About />
         <SectionDivider />
         <Experience />
+        <SectionDivider />
         <Projects />
       </Providers>
     </main>
