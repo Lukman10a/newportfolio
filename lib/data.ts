@@ -69,3 +69,16 @@ export const projectsData = [
     url: muslimspace,
   },
 ] as const;
+
+export const skillsData = [
+  "React JS",
+  "HTML 5",
+  "CSS 3",
+  "Next JS",
+  "Javascript",
+  "Tailwind CSS",
+  "Styled Component",
+  "Axios",
+  "Typescript",
+  "Material UI",
+] as const;
