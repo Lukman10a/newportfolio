@@ -20,8 +20,6 @@ export default function Experience() {
   const [mounted, setMounted] = useState(false);
   const { theme } = useTheme();
 
-  console.log(experiencesData);
-
   useEffect(() => {
     setMounted(true);
   }, []);
