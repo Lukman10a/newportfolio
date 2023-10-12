@@ -33,7 +33,7 @@ export default function Project({
     >
       <section className="bg-gray-200max-w-[42rem] border border-black/5 rounded-lg overflow-hidden relative sm:h-[20rem] hover:bg-gray-100 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:b-white/20 ">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
-          <h3>{title}</h3>
+          <h3 className="text-2xl font-semibold">{title}</h3>
           <p>{description}</p>
           <ul>
             {tags.map((tag, index) => (
