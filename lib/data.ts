@@ -15,16 +15,16 @@ export const links = [
     hash: "#about",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
   {
     name: "Skills",
     hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
   },
   {
     name: "Contact",
@@ -45,6 +45,13 @@ export const experiencesData = [
     location: "LearnBoost, Nigeria",
     description: "A skilled and experienced mobile app developer",
     icon: React.createElement(CgWorkAlt),
+    date: "July 2022 - Sept 2022",
+  },
+  {
+    title: "Frontend Developer",
+    location: "LearnBoost, Nigeria",
+    description: "A skilled and experienced mobile app developer",
+    icon: React.createElement(FaReact),
     date: "July 2022 - Sept 2022",
   },
 ] as const;
@@ -78,7 +85,13 @@ export const skillsData = [
   "Javascript",
   "Tailwind CSS",
   "Styled Component",
+  "git",
   "Axios",
   "Typescript",
   "Material UI",
+] as const;
+
+export const languagesData = [
+  { lang: "English", level: 9 },
+  { lang: "Arabic", level: 9 },
 ] as const;
