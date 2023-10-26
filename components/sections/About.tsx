@@ -15,7 +15,7 @@ export default function About() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
-      className=""
+      className="max-w-[45rem] text-center leading-8 scroll-mt-28"
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">

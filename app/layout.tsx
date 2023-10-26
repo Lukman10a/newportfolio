@@ -1,9 +1,12 @@
 import Footer from "@/components/sections/Footer";
 import Header from "@/components/sections/Header";
+import BgDecorator from "@/components/BgDecorator";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Providers } from "./providers";
+import { Toaster } from "react-hot-toast";
+import ThemeSwitch from "@/components/ThemeSwitch";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,13 +23,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-slate-800 text-white relative pt-28 sm:pt-36 dark:bg-gray-800 dark:text-gray-50 dark:text-opacity-90`}
+        className={`${inter.className} bg-gray-300 text-black relative pt-28 sm:pt-36 dark:bg-gray-800 dark:text-gray-50 dark:text-opacity-90`}
       >
         <Providers>
           <Header />
+          <BgDecorator />
+          <ThemeSwitch />
           {children}
           <Footer />
         </Providers>
+        <Toaster />
       </body>
     </html>
   );
