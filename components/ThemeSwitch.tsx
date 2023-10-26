@@ -23,7 +23,7 @@ export default function ThemeSwitch() {
   return (
     <button
       onClick={handleToggle}
-      className="fixed buttom-5 right-5 rounded-full bg-white w-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all dark:bg-gray-900"
+      className="fixed buttom-5 right-5 rounded-full bg-white p-3 bg-opacity-80 backdrop-blur-[0.5rem] flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all dark:bg-gray-900"
     >
       {theme === "light" ? <BsSun /> : <BsMoon />}
     </button>
