@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { experimental_useFormStatus as useFormStatus } from "react-dom";
+// import { experimental_useFormStatus as useFormStatus } from "react-dom";
+import { useFormStatus } from "react-dom";
 import { FaPaperPlane } from "react-icons/fa";
 
 export default function SubmitBtn() {
@@ -35,8 +36,8 @@ export default function SubmitBtn() {
 
 //   const handleSubmit = () => {
 //     setPending(true);
-    // Perform your form submission logic here.
-    // After the submission is complete, setPending(false).
+// Perform your form submission logic here.
+// After the submission is complete, setPending(false).
 //   };
 
 //   return (
