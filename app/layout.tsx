@@ -7,6 +7,7 @@ import { Inter } from "next/font/google";
 import { Providers } from "./providers";
 import { Toaster } from "react-hot-toast";
 import ThemeSwitch from "@/components/ThemeSwitch";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning className="!scroll-smooth">
       <body
         className={`${inter.className} bg-gray-300 text-black relative pt-28 sm:pt-36 dark:bg-gray-800 dark:text-gray-50 dark:text-opacity-90`}
       >

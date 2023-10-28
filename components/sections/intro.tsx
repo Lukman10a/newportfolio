@@ -34,8 +34,8 @@ export default function Intro() {
             <Image
               src={workSpace}
               alt="workspace"
-              width="300"
-              height="500"
+              width="500"
+              height="700"
               quality="95"
               priority={true}
               className="w-40 h-40 rounded-[30px] object-cover border-[0.3rem] border-gray-700 shadow-xl"
@@ -49,10 +49,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">I am Lukman, frontend developer</span>{" "}
+        <p className="font-bold">I am Lukman, frontend developer</p>{" "}
         <span className="font-bold">specialized in building modern web </span>{" "}
-        <span className="font-bold">and mobile App using</span>{" "}
-        <span className="underline">ReactJS, Next JS and React native</span>{" "}
+        <p className="font-bold">and mobile Apps</p>{" "}
+        {/* <span className="underline">ReactJS, Next JS and React native</span>{" "}   */}
       </motion.h1>
 
       <motion.div
@@ -94,7 +94,7 @@ export default function Intro() {
           className="p-4 bg-gray-800 hover:bg-gray-700 text-white flex items-center gap-2 rounded-full shadow-md transition-all duration-300"
         >
           <FaGithubSquare size={20} />
-          <span className="font-semibold">GitHub</span>
+          {/* <span className="font-semibold">GitHub</span> */}
         </a>
 
         <a
@@ -105,7 +105,7 @@ export default function Intro() {
           className="p-4 bg-blue-500 hover:bg-blue-400 text-white flex items-center gap-2 rounded-full shadow-md transition-all duration-300"
         >
           <BsLinkedin size={20} />
-          <span className="font-semibold">LinkedIn</span>
+          {/* <span className="font-semibold">LinkedIn</span> */}
         </a>
       </motion.div>
     </section>

@@ -18,7 +18,7 @@ export default function About() {
       className="max-w-[45rem] text-center leading-8 scroll-mt-28"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      {/* <p className="mb-3">
         <span className="font-bold">
           I am Lukman, a frontend developer with
         </span>{" "}
@@ -35,6 +35,20 @@ export default function About() {
         <span className="font-medium">
           I am a collaborative team player who thrives in agile enviroment
         </span>
+      </p> */}
+
+      <p>
+        Front-End Developer with 3+ years of experience, skilled in React,
+        Next.js, TypeScript, JavaScript, and other key technologies. Proficient
+        in essential tools and services, such as Tailwind CSS, Axios, React
+        Query, and database systems like MongoDB and Firebase. Proven ability to
+        write clean, efficient, and maintainable code, and successfully complete
+        projects that demonstrate technical prowess. Dedicated to delivering
+        high-quality solutions with meticulous attention to detail, a strong
+        work ethic, and a commitment to staying updated with the latest trends
+        and best practices in the industry. Thrives in collaborative Agile
+        environments, where I can work seamlessly with cross-functional teams to
+        create innovative, impactful, and user-friendly applications.
       </p>
     </motion.section>
   );
