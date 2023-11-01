@@ -78,7 +78,7 @@ export const projectsData = [
     url: mainstack,
   },
   {
-    title: "learnboost",
+    title: "Zipo",
     description: "Built a responsive dashboard",
     tags: ["Next", "i18next", "Twind macro", "Axios", "React Query"],
     url: zipo,
