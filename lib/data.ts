@@ -61,14 +61,16 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "At-Taasil",
-    description: "An online university meant to teach people through the net",
+    description:
+      "The At-Taasil Online University Platform is a cutting-edge e-learning platform that empowers students and educators to transform online education.",
     tags: ["Next", "i18next", "Twind macro", "Axios", "React Query"],
     url: ataasil,
   },
   {
     title: "LearnBoost",
-    description: "An educational mobile app for children",
-    tags: ["React Native", "Axios", "React Querry", "Axios", "React Query"],
+    description:
+      "LearnBoost, a pioneering React Native mobile app, provides a seamless educational experience to young learners on iOS and Android",
+    tags: ["React Native", "TypeScript", "Axios", "React Query"],
     url: learnboost,
   },
   {
