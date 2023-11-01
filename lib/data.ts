@@ -4,6 +4,8 @@ import { FaReact } from "react-icons/fa";
 import ataasil from "../public/at-taasil.png";
 import mainstack from "../public/mainstack.png";
 import muslimspace from "../public/muslim_space.png";
+import zipo from "../public/zipo.jpg";
+import learnboost from "../public/learnboost.jpg";
 
 export const links = [
   {
@@ -59,15 +61,27 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "At-Taasil",
-    description: "Collaborated in building the online university",
+    description: "An online university meant to teach people through the net",
     tags: ["Next", "i18next", "Twind macro", "Axios", "React Query"],
     url: ataasil,
+  },
+  {
+    title: "LearnBoost",
+    description: "An educational mobile app for children",
+    tags: ["React Native", "Axios", "React Querry", "Axios", "React Query"],
+    url: learnboost,
   },
   {
     title: "Mainstack",
     description: "Built a responsive dashboard",
     tags: ["Next", "i18next", "Twind macro", "Axios", "React Query"],
     url: mainstack,
+  },
+  {
+    title: "learnboost",
+    description: "Built a responsive dashboard",
+    tags: ["Next", "i18next", "Twind macro", "Axios", "React Query"],
+    url: zipo,
   },
   {
     title: "Muslim Space",

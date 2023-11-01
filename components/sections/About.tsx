@@ -15,7 +15,7 @@ export default function About() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
-      className="max-w-[45rem] text-center leading-8 scroll-mt-28"
+      className="max-w-[45rem] text-center leading-8 scroll-mt-28 px-3"
     >
       <SectionHeading>About me</SectionHeading>
       {/* <p className="mb-3">
@@ -38,17 +38,18 @@ export default function About() {
       </p> */}
 
       <p>
-        Front-End Developer with 3+ years of experience, skilled in React,
-        Next.js, TypeScript, JavaScript, and other key technologies. Proficient
-        in essential tools and services, such as Tailwind CSS, Axios, React
-        Query, and database systems like MongoDB and Firebase. Proven ability to
-        write clean, efficient, and maintainable code, and successfully complete
-        projects that demonstrate technical prowess. Dedicated to delivering
-        high-quality solutions with meticulous attention to detail, a strong
-        work ethic, and a commitment to staying updated with the latest trends
-        and best practices in the industry. Thrives in collaborative Agile
-        environments, where I can work seamlessly with cross-functional teams to
-        create innovative, impactful, and user-friendly applications.
+        <span className="font-bold">Front-End Developer</span> with 3+ years of
+        experience, skilled in React, Next.js, TypeScript, JavaScript, and other
+        key technologies. Proficient in essential tools and services, such as
+        Tailwind CSS, Axios, React Query, and database systems like MongoDB and
+        Firebase. Proven ability to write clean, efficient, and maintainable
+        code, and successfully complete projects that demonstrate technical
+        prowess. Dedicated to delivering high-quality solutions with meticulous
+        attention to detail, a strong work ethic, and a commitment to staying
+        updated with the latest trends and best practices in the industry.
+        Thrives in collaborative Agile environments, where I can work seamlessly
+        with cross-functional teams to create innovative, impactful, and
+        user-friendly applications.
       </p>
     </motion.section>
   );
